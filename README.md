@@ -1,4 +1,5 @@
 # Implementing Serverless Architecture on AWS
+<img width="466" alt="serverless-music" src="https://github.com/Zahyl/Serverless-Architecture-AWS/assets/71133664/c634b129-4dee-4bc4-af1f-759744e9545e">
 
 In this project, I developed a serverless music web application utilizing Amazon DynamoDB, AWS Lambda, and API Gateway for displaying all music albums in the database, adding new albums, deleting existing albums, and updating certain album attributes. To create a functional and secure music application, I used multiple AWS services during implementation. The front-end of the application, built with HTML, CSS, and JavaScript, was hosted on Amazon S3. AWS Lambda, Amazon API Gateway, and Amazon DynamoDB were used for back-end development, with DynamoDB acting as the persistence layer to store music albums. Python-based Lambda functions executed database operations, and API Gateway endpoints linked the Lambda functions to the corresponding HTTP methods. For security purposes, I employed Amazon Cognito to manage user authentication and authorization, ensuring that only authorized users could perform specific actions on the application.
 
