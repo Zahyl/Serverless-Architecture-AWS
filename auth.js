@@ -1,7 +1,7 @@
 var userPool;
 var poolData = {
-    UserPoolId: 'us-east-1_0Tmb6qq4M', // Update this to your user pool ID
-    ClientId: '6996lif0el35rp1j5nu6j1uj1', // Update this to your app client ID
+    UserPoolId: 'us-east-1_xxxxxxx', // Update this to your user pool ID
+    ClientId: '6996lif0elxxxxxxxxxxxxxx', // Update this to your app client ID
 }
 
 function signUp(username, email, password, onSuccess, onFailure) {
